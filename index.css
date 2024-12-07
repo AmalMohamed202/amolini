@@ -1,6 +1,6 @@
 @font-face {
   font-family: "mainFont";
-  src: url("arfonts-boahmed-alhour.ttf");
+  src: url("src/fonts/arfonts-boahmed-alhour.ttf");
 }
 
 .rtl {
@@ -36,17 +36,17 @@ button {
 .answer-figure div {
   width: 150px;
   height: 150px;
-  background-image: url('cow-sitting.png');
+  background-image: url('src/img/cow-sitting.png');
   background-size: contain;
   transition: background-image 0.5s ease-in-out;
 }
 
 .answer-yes-figure:hover div {
-  background-image: url('cow-standing.png'); 
+  background-image: url('src/img/cow-standing.png'); 
 }
 
 .answer-no-figure:hover div {
-  background-image: url('angry-cow-walking.png'); 
+  background-image: url('src/img/angry-cow-walking.png'); 
 }
 
 .answer-no-figure:hover {
